@@ -1,4 +1,4 @@
-# Portfolio Command Center - Jonathan Kur
+# Portfolio Jonathan Kurniawan
 
 Website ini adalah website portofolio . Website menampilkan profil saya sebagai mahasiswa Sistem Informasi yang tertarik pada web development, UI/UX, jaringan komputer, dan data. Website ini saya buat dengan tampilan modern bernuansa hitam, dengan navigasi yang jelas, layout yang rapi, serta responsif.
 
