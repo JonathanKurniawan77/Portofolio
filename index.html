@@ -1,0 +1,349 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Website portofolio " />
+  <title>Portofolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@500;700&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/style.css" />
+  <link rel="icon" type="image/svg+xml" href="assets/img/favicon.svg">
+  <link rel="apple-touch-icon" href="assets/img/favicon.svg">
+</head>
+<body>
+  <div class="noise"></div>
+  <div class="cursor-glow" id="cursorGlow"></div>
+
+  <header class="header">
+    <nav class="nav">
+      <a href="#home" class="brand" aria-label="Jonathan Kur Portfolio">
+        <span class="brand-mark">JK</span>
+        <span class="brand-text">Jonathan Kurniawan</span>
+      </a>
+
+      <button class="menu-button" id="menuButton" aria-label="Buka navigasi" aria-expanded="false">
+        <span></span>
+        <span></span>
+      </button>
+
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#identity">Identity</a></li>
+        <li><a href="#mission">Education</a></li>
+        <li><a href="#stack">Stack</a></li>
+        <li><a href="#projects">Experience</a></li>
+        <li><a href="#transmission">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero" id="home">
+      <div class="orb orb-one"></div>
+      <div class="orb orb-two"></div>
+
+      <div class="hero-grid">
+        <div class="hero-copy">
+          <p class="terminal-line">
+            <span class="dot"></span>
+            system.boot / portfolio_jonathan_kurniawan
+          </p>
+
+          <h1>
+            Building digital products with
+            <span>logic, clarity,</span>
+            and human-centered design.
+          </h1>
+
+          <p class="hero-desc">
+            I am a passionate Information Systems student with a strong focus on Networking and Cloud Technology. 
+            With hands-on experience in IT support and project management, 
+            I am eager to contribute my skills and knowledge to create impactful digital solutions.
+          </p>
+
+          <div class="hero-actions">
+            <a href="#projects" class="btn primary">Explore Experience</a>
+            <a href="#identity" class="btn ghost">Scan Profile</a>
+          </div>
+        </div>
+
+        <aside class="command-panel" aria-label="Ringkasan status portofolio">
+          <div class="panel-header">
+            <span></span>
+            <span></span>
+            <span></span>
+            <p>profile.status</p>
+          </div>
+
+          <div class="profile-chip">
+            <div class="avatar">JK</div>
+            <div>
+              <h2>Jonathan Kurniawan</h2>
+              <p>Information Systems Student</p>
+            </div>
+          </div>
+
+          <div class="status-grid">
+            <div>
+              <span>Focus</span>
+              <strong>Networking</strong>
+            </div>
+            <div>
+              <span>Mode</span>
+              <strong>Learning</strong>
+            </div>
+            <div>
+              <span>Base</span>
+              <strong>Malang</strong>
+            </div>
+            <div>
+              <span>Goal</span>
+              <strong>Cloud Network & System Engineer</strong>
+            </div>
+          </div>
+
+          <div class="progress-box">
+            <div class="progress-label">
+              <span>Portfolio readiness</span>
+              <strong>96%</strong>
+            </div>
+            <div class="progress-track">
+              <div class="progress-fill"></div>
+            </div>
+          </div>
+        </aside>
+      </div>
+    </section>
+
+    <section class="section identity" id="identity">
+      <div class="section-label">01 / Identity</div>
+      <div class="identity-grid">
+        <div>
+          <h2>A profile that does more than just display information<br>it shows direction, growth and purpose.</h2>
+        </div>
+        <div class="identity-card">
+          <p>
+            I started my journey in tech at Vocational High School Student majoring Computer Network
+            Engineering. At there, i learn about Network, Computer Hardware, Design, and other. After
+            that, i continue as IT Support intern, which was a fantastic way to learn more about how
+            computer, especially Hardware & Network actually works and how to solve some technical
+            problems. I love learning something new in Tech, and really excited to bring a powerful blend
+            of Networking, and Cloud Tech.
+
+          </p>
+          <div class="identity-tags">
+            <span>Problem Solver</span>
+            <span>Tech Learner</span>
+            <span>Design Thinker</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section mission" id="mission">
+      <div class="section-label">02 / Education Timeline</div>
+
+      <div class="mission-grid education-grid">
+        <article class="mission-card education-card">
+          <span>Education 01</span>
+          <h3>Brawijaya University</h3>
+          <p>Currently pursuing a degree in Information Systems. With focus on Object-Oriented Programming and Business with a 3.9 GPA.</p>
+          <ul class="education-list">
+            <li>Brawijaya University</li>
+            <li>Information Systems</li>
+            <li>Est. 2025</li>
+          </ul>
+        </article>
+
+        <article class="mission-card featured education-card">
+          <span>Education 02</span>
+          <h3>YPPI Vocational High School</h3>
+          <p>Graduated with a focus on Computer Network Engineering. Gained hands-on experience in network configuration, troubleshooting, and hardware maintenance.</p>
+          <ul class="education-list">
+            <li>YPPI Vocational High School</li>
+            <li>Computer Network Engineering</li>
+            <li>2022 - 2025</li>
+          </ul>
+        </article>
+      </div>
+    </section>
+
+    <section class="section stack" id="stack">
+      <div class="section-title">
+        <div class="section-label">03 / Skill Stack</div>
+        <h2>Skills that define my abilities and support my career.</h2>
+      </div>
+
+      <div class="stack-shell">
+        <div class="stack-list">
+          <button class="stack-item active" data-target="web">
+            <span>01</span>
+            Web Interface
+          </button>
+          <button class="stack-item" data-target="ux">
+            <span>02</span>
+            UI/UX Thinking
+          </button>
+          <button class="stack-item" data-target="network">
+            <span>03</span>
+            Network System
+          </button>
+          <button class="stack-item" data-target="data">
+            <span>04</span>
+            Data & Database
+          </button>
+        </div>
+
+        <div class="stack-preview">
+          <article class="stack-content active" id="web">
+            <p class="code-title">stack.web</p>
+            <h3>HTML, CSS, JavaScript</h3>
+            <p>Building responsive websites with modern layouts, interactive navigation, and well-structured content.</p>
+          </article>
+
+          <article class="stack-content" id="ux">
+            <p class="code-title">stack.ux</p>
+            <h3>Wireframe, Visual Hierarchy, Consistency</h3>
+            <p>Designing user interfaces with clear visual hierarchies, consistent design patterns, and intuitive wireframes.</p>
+          </article>
+
+          <article class="stack-content" id="network">
+            <p class="code-title">stack.network</p>
+            <h3>Routing, VLAN, Server Basics</h3>
+            <p>Understanding network fundamentals, configuring network devices, and managing server infrastructure.</p>
+          </article>
+
+          <article class="stack-content" id="data">
+            <p class="code-title">stack.data</p>
+            <h3>SQL, ERD, Query Logic</h3>
+            <p>Processing data with SQL queries, understanding table relationships, and designing databases that support information system needs.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section projects" id="projects">
+      <div class="section-title">
+        <div class="section-label">04 / Experience Vault</div>
+        <h2>Experience that shapes my journey.</h2>
+      </div>
+
+      <div class="experience-board">
+        <article class="experience-card">
+          <div class="experience-number">01</div>
+          <div class="experience-icon">▣</div>
+          <div class="experience-content">
+            <p class="experience-type">Internship Experience</p>
+            <h3>Codelab Indonesia</h3>
+            <p>Assisted in managing and coordinating various projects, collaborated with cross-functional teams, and contributed to the development of digital solutions.</p>
+
+            <div class="experience-detail">
+              <div>
+                <span>Company</span>
+                <strong>Codelab Indonesia</strong>
+              </div>
+              <div>
+                <span>Role</span>
+                <strong>InternProject Management</strong>
+              </div>
+              <div>
+                <span>Period</span>
+                <strong>May 2026 - August 2026</strong>
+              </div>
+            </div>
+          </div>
+        </article>
+
+        <article class="experience-card highlight">
+          <div class="experience-number">02</div>
+          <div class="experience-icon">◈</div>
+          <div class="experience-content">
+            <p class="experience-type">Internship Experience</p>
+            <h3>PT Indah Kiat Pulp & Papper Tbk. Perawang</h3>
+            <p>Assisted in providing technical support to users, maintained IT infrastructure, and contributed to various IT projects.</p>
+
+            <div class="experience-detail">
+              <div>
+                <span>Company</span>
+                <strong>PT Indah Kiat Pulp & Papper Tbk. Perawang</strong>
+              </div>
+              <div>
+                <span>Role</span>
+                <strong>Intern IT Support</strong>
+              </div>
+              <div>
+                <span>Period</span>
+                <strong>December 2024 – July 2025</strong>
+              </div>
+            </div>
+          </div>
+        </article>
+
+        <article class="experience-card organization">
+          <div class="experience-number">03</div>
+          <div class="experience-icon">✦</div>
+          <div class="experience-content">
+            <p class="experience-type">Organization Experience</p>
+            <h3>Laboratory Assistant</h3>
+            <p>Supported laboratory operations, maintained equipment, and assisted in conducting experiments.</p>
+
+            <div class="experience-detail">
+              <div>
+                <span>Organisation</span>
+                <strong>Laboratory Assistant</strong>
+              </div>
+              <div>
+                <span>Role</span>
+                <strong>Head of Networking</strong>
+              </div>
+              <div>
+                <span>Period</span>
+                <strong>January 2024 – December 2025</strong>
+              </div>
+            </div>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="section transmission" id="transmission">
+      <div class="transmission-card">
+        <div>
+          <div class="section-label">05 / Transmission</div>
+          <h2>Send a Message</h2>
+          <p>
+            If you have any questions, want to collaborate, or just want to say hi, feel free to send a message through the form or reach out via email and social media.
+          </p>
+
+          <div class="contact-methods">
+            <a href="mailto:jonathankur97@gmail.com">jonathankur97@gmail.com</a>
+            <a href="https://github.com/JonathanKurniawan77" target="_blank" rel="noopener">GitHub</a>
+            <a href="https://www.linkedin.com/in/jonathan-kurniawan-624515358/" target="_blank" rel="noopener">LinkedIn</a>
+          </div>
+        </div>
+
+        <form class="message-form" id="messageForm">
+          <label for="name">Name</label>
+          <input id="name" name="name" type="text" placeholder="Your Name" required>
+
+          <label for="email">Email</label>
+          <input id="email" name="email" type="email" placeholder="your@email.com" required>
+
+          <label for="message">Message</label>
+          <textarea id="message" name="message" rows="5" placeholder="Write a short message" required></textarea>
+
+          <button class="btn primary" type="submit">Send Message</button>
+          <p class="feedback" id="feedback" role="status"></p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <a href="#home">Back to top</a>
+  </footer>
+
+  <script src="assets/js/script.js"></script>
+</body>
+</html>
