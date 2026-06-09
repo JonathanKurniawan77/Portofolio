@@ -1,17 +1,13 @@
-# Dokumentasi Singkat Website Portfolio Command Center
+# Dokumentasi Singkat Website Portfolio 
 
 ## 1. Deskripsi Website
 
-Website ini adalah website portofolio pribadi dengan konsep **Digital Command Center**. Website menampilkan profil Jonathan Kur sebagai mahasiswa Sistem Informasi yang tertarik pada web development, UI/UX, jaringan komputer, dan data. Konsep command center dipilih agar website terlihat lebih unik, modern, dan berbeda dari portofolio umum.
+Website ini adalah website portofolio . Website menampilkan profil saya sebagai mahasiswa Sistem Informasi yang tertarik pada web development, UI/UX, jaringan komputer, dan data. Website ini saya buat dengan tampilan modern bernuansa hitam, dengan navigasi yang jelas, layout yang rapi, serta responsif.
 
 ## 2. Target Pengguna
 
 Target pengguna website ini adalah:
-
-- Dosen pengampu mata kuliah
-- Teman kuliah
-- Rekan pengalaman
-- Pihak yang ingin mengetahui profil, kemampuan, dan pengalaman pemilik website
+Pihak yang ingin mengetahui profil, kemampuan, dan pengalaman yang saya miliki.
 
 ## 3. Konsep Visual
 
@@ -37,7 +33,7 @@ Navigasi ditempatkan di bagian atas dan menggunakan sticky header agar mudah dia
 
 ### Hierarki Visual
 
-Bagian hero menggunakan judul besar untuk menarik perhatian. Setiap section memiliki label, judul, dan isi yang tersusun jelas.
+Bagian awal menggunakan judul besar untuk menarik perhatian. Setiap section memiliki label, judul, dan isi yang tersusun jelas.
 
 ### Responsivitas
 
@@ -53,8 +49,8 @@ Tombol, link, menu, dan card dibuat memiliki gaya visual yang jelas sehingga pen
 
 ## 5. Teknologi
 
-- HTML5
-- CSS3
+- HTML
+- CSS
 - JavaScript
 - Google Fonts
 
@@ -65,8 +61,6 @@ Tombol, link, menu, dan card dibuat memiliki gaya visual yang jelas sehingga pen
 - Navigasi jelas
 - Ada interaksi sederhana
 - Struktur kode rapi
-- Siap dihosting di GitHub Pages, Netlify, atau Vercel
+  
 
-## 7. Kesimpulan
 
-Website ini sudah memenuhi ketentuan tugas karena memiliki tema bebas, memperhatikan prinsip dasar UI/UX, responsif, memiliki struktur kode rapi, dan siap diunggah ke GitHub serta dihosting secara online.
